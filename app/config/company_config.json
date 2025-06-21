@@ -1,0 +1,26 @@
+{
+  "company_name": "DocIntel AI",
+  "compliance_rules": [
+    {
+      "id": "SAFETY-001",
+      "title": "Emergency Response Plan",
+      "description": "Document must include emergency response procedures",
+      "severity": "high",
+      "category": "safety"
+    },
+    {
+      "id": "SAFETY-002",
+      "title": "Spill Containment",
+      "description": "Document must include spill containment procedures",
+      "severity": "high",
+      "category": "safety"
+    },
+    {
+      "id": "COMP-001",
+      "title": "Vendor Compliance",
+      "description": "Document must meet all logistics safety and compliance rules",
+      "severity": "medium",
+      "category": "compliance"
+    }
+  ]
+} 

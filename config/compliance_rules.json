@@ -1,0 +1,128 @@
+{
+    "general": [
+        {
+            "id": "GEN-001",
+            "clause": "Document must include a clear statement of commitment to health and safety",
+            "pattern": "commitment.*health.*safety|safety.*commitment",
+            "severity": "high",
+            "recommendation": "Add a clear statement of commitment to health and safety at the beginning of the document"
+        },
+        {
+            "id": "GEN-002",
+            "clause": "Document must define roles and responsibilities for safety management",
+            "pattern": "roles.*responsibilities|responsibilities.*roles",
+            "severity": "high",
+            "recommendation": "Include a section defining roles and responsibilities for safety management"
+        }
+    ],
+    "ppe": [
+        {
+            "id": "PPE-001",
+            "clause": "Document must specify required PPE for different work activities",
+            "pattern": "PPE.*required|required.*PPE|personal protective equipment",
+            "severity": "high",
+            "recommendation": "Add a section detailing required PPE for different work activities"
+        },
+        {
+            "id": "PPE-002",
+            "clause": "Document must include PPE maintenance and inspection requirements",
+            "pattern": "PPE.*maintenance|PPE.*inspection|maintenance.*PPE",
+            "severity": "medium",
+            "recommendation": "Include requirements for PPE maintenance and inspection"
+        }
+    ],
+    "emergency": [
+        {
+            "id": "EMER-001",
+            "clause": "Document must include emergency response procedures",
+            "pattern": "emergency.*response|emergency.*procedure|emergency.*plan",
+            "severity": "high",
+            "recommendation": "Add detailed emergency response procedures"
+        },
+        {
+            "id": "EMER-002",
+            "clause": "Document must specify evacuation procedures",
+            "pattern": "evacuation.*procedure|evacuation.*plan|emergency.*evacuation",
+            "severity": "high",
+            "recommendation": "Include specific evacuation procedures"
+        }
+    ],
+    "training": [
+        {
+            "id": "TRN-001",
+            "clause": "Document must specify safety training requirements",
+            "pattern": "safety.*training|training.*requirement|safety.*education",
+            "severity": "medium",
+            "recommendation": "Add safety training requirements"
+        },
+        {
+            "id": "TRN-002",
+            "clause": "Document must include competency assessment procedures",
+            "pattern": "competency.*assessment|assessment.*competency|skill.*assessment",
+            "severity": "medium",
+            "recommendation": "Include competency assessment procedures"
+        }
+    ],
+    "incident": [
+        {
+            "id": "INC-001",
+            "clause": "Document must include incident reporting procedures",
+            "pattern": "incident.*report|report.*incident|accident.*report",
+            "severity": "high",
+            "recommendation": "Add incident reporting procedures"
+        },
+        {
+            "id": "INC-002",
+            "clause": "Document must specify investigation requirements",
+            "pattern": "incident.*investigation|investigation.*procedure|accident.*investigation",
+            "severity": "high",
+            "recommendation": "Include investigation requirements"
+        }
+    ],
+    "required_clauses": [
+        {
+            "id": "safety_1",
+            "text": "safety procedures",
+            "category": "Safety"
+        },
+        {
+            "id": "safety_2",
+            "text": "emergency response",
+            "category": "Safety"
+        },
+        {
+            "id": "ppe_1",
+            "text": "personal protective equipment",
+            "category": "PPE"
+        },
+        {
+            "id": "ppe_2",
+            "text": "safety gear",
+            "category": "PPE"
+        },
+        {
+            "id": "training_1",
+            "text": "employee training",
+            "category": "Training"
+        },
+        {
+            "id": "training_2",
+            "text": "safety training",
+            "category": "Training"
+        }
+    ],
+    "ppe_keywords": [
+        "personal protective equipment",
+        "safety gear",
+        "protective clothing",
+        "safety equipment",
+        "ppe"
+    ],
+    "drill_keywords": [
+        "emergency drill",
+        "evacuation drill",
+        "fire drill",
+        "safety drill",
+        "emergency exercise"
+    ]
+} 

@@ -1,0 +1,3 @@
+"""
+DocIntel AI Application Package
+""" 

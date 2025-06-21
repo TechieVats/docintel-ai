@@ -1,0 +1,85 @@
+{
+    "company_name": "Your Company",
+    "industry": "General",
+    "compliance_requirements": {
+        "safety": {
+            "required": true,
+            "frequency": "annual"
+        },
+        "ppe": {
+            "required": true,
+            "frequency": "quarterly"
+        },
+        "training": {
+            "required": true,
+            "frequency": "annual"
+        }
+    },
+    "risk_levels": {
+        "high": {
+            "threshold": 5,
+            "color": "#ef4444"
+        },
+        "medium": {
+            "threshold": 2,
+            "color": "#f59e0b"
+        },
+        "low": {
+            "threshold": 0,
+            "color": "#10b981"
+        }
+    },
+    "compliance_framework": "Custom Framework",
+    "compliance_categories": {
+        "general": {
+            "name": "General Requirements",
+            "description": "Basic compliance requirements"
+        },
+        "ppe": {
+            "name": "Personal Protective Equipment",
+            "description": "PPE requirements and standards"
+        },
+        "emergency": {
+            "name": "Emergency Procedures",
+            "description": "Emergency response and evacuation procedures"
+        },
+        "training": {
+            "name": "Training Requirements",
+            "description": "Training and competency requirements"
+        },
+        "incident": {
+            "name": "Incident Management",
+            "description": "Incident reporting and investigation procedures"
+        }
+    },
+    "ppe_requirements": {
+        "hard_hat": {
+            "name": "Hard Hat",
+            "description": "Head protection requirements"
+        },
+        "safety_shoes": {
+            "name": "Safety Shoes",
+            "description": "Foot protection requirements"
+        },
+        "gloves": {
+            "name": "Safety Gloves",
+            "description": "Hand protection requirements"
+        },
+        "goggles": {
+            "name": "Safety Goggles",
+            "description": "Eye protection requirements"
+        },
+        "respirator": {
+            "name": "Respirator",
+            "description": "Respiratory protection requirements"
+        }
+    },
+    "drill_requirements": {
+        "frequency_days": 180,
+        "required_types": [
+            "emergency",
+            "evacuation",
+            "fire"
+        ]
+    }
+} 
